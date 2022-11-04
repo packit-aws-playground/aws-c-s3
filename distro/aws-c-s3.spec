@@ -17,6 +17,7 @@ BuildRequires:  aws-c-compression-devel
 BuildRequires:  aws-c-io-devel
 BuildRequires:  aws-c-http-devel
 BuildRequires:  aws-c-auth-devel
+BuildRequires:  aws-checksums-devel
 
 Requires:       aws-c-common-libs
 Requires:       aws-c-sdkutils-libs
@@ -25,6 +26,7 @@ Requires:       aws-c-compression-libs
 Requires:       aws-c-io-libs
 Requires:       aws-c-http-libs
 Requires:       aws-c-auth-libs
+Requires:       aws-checksums-libs
 
 %description
 C99 library implementation for communicating with the S3 service,
